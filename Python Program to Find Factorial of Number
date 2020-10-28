@@ -3,11 +3,9 @@
 def factorial(num):
     """This is a recursive function that calls
    itself to find the factorial of given number"""
-    if num == 1:
-        return num
-    else:
-        return num * factorial(num - 1)
-
+for num in range(factorial, 0, -1):
+    fact*=num
+return fact
 
 # We will find the factorial of this number
 num = int(input("Enter a Number: "))
