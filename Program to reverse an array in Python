@@ -1,0 +1,4 @@
+array = [20,39,40,50,88,99,100,200]
+
+reversed_array = [array[i] for i in range(len(array)-1, -1, -1]
+print('The reverse of the array is {}'.format(reversed_array))
