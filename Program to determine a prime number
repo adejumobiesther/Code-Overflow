@@ -1,0 +1,6 @@
+number = int(input('Enter a number to check if it is prime:\n'))
+if ((number%2 == 0 and number!= 2) or (number%3 == 0 and number !=3) 
+    or (number%5 == 0 and number !=5) or (number%7 == 0 and number !=7)):
+    print('This is not prime number!')
+else:
+    print('This is a prime number!')
